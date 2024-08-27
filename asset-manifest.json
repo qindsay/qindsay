@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/qindsay/static/css/main.93f0313d.css",
+    "main.js": "/qindsay/static/js/main.a7891400.js",
+    "static/media/kita.jpg": "/qindsay/static/media/kita.a7f12888c7fd1ce6af01.jpg",
+    "index.html": "/qindsay/index.html",
+    "main.93f0313d.css.map": "/qindsay/static/css/main.93f0313d.css.map",
+    "main.a7891400.js.map": "/qindsay/static/js/main.a7891400.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93f0313d.css",
+    "static/js/main.a7891400.js"
+  ]
+}
