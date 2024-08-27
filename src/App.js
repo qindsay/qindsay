@@ -8,7 +8,6 @@ function App() {
 
     <div className="App">
       <NavBar/>
-      <h1>"hello"</h1>
     </div>
   );
 }

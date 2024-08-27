@@ -6,23 +6,29 @@ import "./NavBar.css";
 import logo from '../assets/kita.jpg'
 
 const NavBar = () => {
-  return (
-    <>
-      <nav className="navbar">
-        <div className="navbar-container">
-          <Navbar.Brand href="#home"> 
-            <img 
-              src={logo} 
-              width="50"
-              height="50"
-              alt=''/>
-          </Navbar.Brand>
-        </div>
-      </nav>
-    </>
-  );
+ return (
+   <>
+     <nav>
+       <a>
+             <img
+             src={logo}
+             width="50"
+             height="50"
+             alt=''/></a>
+       <div className="navbar-container">
+         <ul>
+           <li>About</li>
+           <li>Work</li>
+           <li>Resume</li>
+         </ul>
+       </div>
+     </nav>
+   </>
+ );
 };
 
+
 export default NavBar;
+
     
 
