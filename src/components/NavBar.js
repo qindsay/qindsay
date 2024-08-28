@@ -1,7 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom'
 import "./NavBar.css";
 import logo from '../assets/kita.jpg'
 
@@ -17,8 +16,8 @@ const NavBar = () => {
              alt=''/></a>
        <div className="navbar-container">
          <ul>
-           <li>About</li>
-           <li>Work</li>
+           <li>About </li>
+           <li><Link to='/work'>Work</Link></li>
            <li>Resume</li>
          </ul>
        </div>
