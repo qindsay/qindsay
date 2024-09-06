@@ -1,19 +1,18 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom'
-import "./NavBar.css";
+import "../styles.css";
 import logo from '../assets/kita.jpg'
 
 const NavBar = () => {
  return (
    <>
      <nav>
-       <a>
+       <Link to='/'>
              <img
              src={logo}
              width="50"
              height="50"
-             alt=''/></a>
+             alt=''/></Link>
        <div className="navbar-container">
          <ul>
            <li>About </li>
