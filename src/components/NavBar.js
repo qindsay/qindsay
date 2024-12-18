@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import "../styles.css";
-import logo from '../assets/kita.jpg'
+import logo from '../assets/lindsay-logo.png'
 
 const NavBar = () => {
  return (
@@ -10,8 +10,8 @@ const NavBar = () => {
        <Link to='/'>
              <img
              src={logo}
-             width="50"
-             height="50"
+             width="60"
+             height="60"
              alt=''/></Link>
        <div className="navbar-container">
          <ul>
