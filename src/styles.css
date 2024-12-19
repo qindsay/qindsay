@@ -2,25 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #E3D8EB;
-    font-family: "Inter"
+    background-color: #F7F4EA;
+    font-family: "Inter", sans-serif;
+    color: #646F58;
 }
 
+h1 {
+    /* margin: 0; */
+    /* padding-left: 2%; */
+    margin-top: 10%;
+    font-weight: 500;
+}
 h2 {
     font-weight: 400;
-    color: #3b3b58;
+    color: #7D8570;
 }
 
 p {
-    font-weight: 300
+    font-weight: 400;
+    /* color: #43473f; */
+    color: #646F58;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #a5ad99;
 }
 
 /* NavBar css */
 
 nav {
     width: 100%;
+    height: 20%;
     position: fixed;
-    height: 60px;
     flex-direction: row;
     top: 0;
     left: 0;
@@ -28,19 +46,40 @@ nav {
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    margin-bottom: 20%
+    padding: 0 7%;
+    background-color: #DED9E2;
+    max-height: 10%;
+    border-bottom: 2px solid;
+    border-color: #adb3a4;
+ }
+
+ nav a {
+    /* margin: 0;
+    padding: 0; */
+    padding-top: 5px;
+    height: 90%;
+    background-color: #DED9E2;
  }
 
  nav img {
-    margin-top: 0px;
-    margin-left: 10px
+    /* margin-top: 0px; */
+    max-height: 90%;
+    /* height: 100%; */
+    background-color: #DED9E2;
+ }
+
+ nav img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
  }
  
  nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 5px 20px;
-    color: #000000
+    padding: 0px 20px;
+    font-size: 20px;
+    background-color: #DED9E2;
+
  }
 
  @media (max-width: 500px) {
@@ -52,10 +91,11 @@ nav {
  /* General */
 
 .content {
-    margin-top: 60px;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%
+    margin-top: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 60px;
+    width: 86%
 }
 
 /* Home */
@@ -86,6 +126,8 @@ nav {
     }
  }
 
+
+
 /* Card */
 .card-list {
     display: flex;
@@ -96,44 +138,71 @@ nav {
 }
 
 .card {
-    align-items: center;
-    flex-direction: column;
-    width: 40%;
-    margin: 3%;
+    width: 48%;
+    margin-bottom: 3%;
     border-style: solid;
     border-width: 2px;
-    border-color: #7ea16b;
+    border-color: #adb3a4;
     border-radius: 10px;
+    overflow: hidden;
+    background-color: #DED9E2;
+    box-shadow: 5px 5px 10px #afa7cf;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    transition-duration: 0.5s;
 }
 
 .card img {
-    width: 100%;
-    /* height: 100%; */
-    padding: 2%;
+    width: 96%;
+    max-width: 100%;
+    height: 100%;
+    margin: 2% 2%;
     max-height: 300px;
-    
+    background-color: #DED9E2;
 }
 
 .card h2 {
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%;
-    border-radius: 2px;
+    background-color: #DED9E2;
+}
+
+.card h2:hover {
+    color: #a5ad99;
+}
+
+.card a {
+    background-color: #DED9E2;
+    color: #5f4f80;
+    font-weight: 500;
+}
+
+.card a:hover {
+    color: #9686b8;
 }
 
 .card p {
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 2%;
+    background-color: #DED9E2;
 }
 
 @media (max-width: 800px) {
     .card-list {
       flex-direction: column;
+      margin: 0px 0px;
     }
     .card {
         width: 90%;
-        align-items: center
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .card img {
+        max-height: 300px;
     }
 }
 

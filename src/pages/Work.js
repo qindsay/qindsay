@@ -16,6 +16,8 @@ const Work = () => {
         <>
         <NavBar />
         <div className="content">
+            <h1>Cool Work</h1>
+            <br></br>
             <CardList />
         </div>
         </>

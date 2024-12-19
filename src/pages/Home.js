@@ -14,7 +14,7 @@ const Home = () => {
                     <h1>Hi, I'm Lindsay!</h1>
                     <h2>Welcome to my personal site.</h2>
                     <br></br>
-                    <p>I’m a second-year computer science major at UCLA currently exploring different aspects of computer science, 
+                    <p>I’m currently a second-year computer science major at UCLA. I like exploring different aspects of computer science, 
                         including but not limited to web application development and programming for robotics. 
                         Outside of computer science, you can find me painting (insert link), doing the New York Times crossword, crocheting, 
                         making bad puns, and/or hanging out with friends.

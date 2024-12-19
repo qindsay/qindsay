@@ -10,9 +10,7 @@ const NavBar = () => {
        <Link to='/'>
              <img
              src={logo}
-             width="60"
-             height="60"
-             alt=''/></Link>
+             alt='A cartoon girl with a green LQ behind her.'/></Link>
        <div className="navbar-container">
          <ul>
            <li>About </li>
