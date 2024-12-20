@@ -10,18 +10,19 @@ const Home = () => {
         <NavBar />
         <div className="content">
             <div className="home-page">
-                <div className="left">
+                <div className="intro-text">
                     <h1>Hi, I'm Lindsay!</h1>
                     <h2>Welcome to my personal site.</h2>
                     <br></br>
-                    <p>I’m currently a second-year computer science major at UCLA. I like exploring different aspects of computer science, 
-                        including but not limited to web application development and programming for robotics. 
-                        Outside of computer science, you can find me painting (insert link), doing the New York Times crossword, crocheting, 
-                        making bad puns, and/or hanging out with friends.
-                    </p>
-                </div>
-                <div className="right">
-                    <img src={lindsay} alt="portrait of Lindsay on the beach"></img>
+                    <p>I'm a...</p>
+                    <ul>
+                        <li>second-year at UCLA majoring in Computer Science</li>
+                        <li>undergrad researcher at the Structures-Computer Interaction Lab</li>
+                        <li>previous intern at SLAC</li>
+                        <li>bad joke enthusiast</li>
+                    </ul>
+                    <br></br>
+                    <p>While you're here, feel free to check out some of the work I've been doing!</p>
                 </div>
             </div>
         </div>
