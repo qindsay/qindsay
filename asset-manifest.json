@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3be82cc8.css",
-    "main.js": "/static/js/main.4814607c.js",
-    "static/media/lindsay-logo.png": "/static/media/lindsay-logo.f62e1bb5247149f0e4bf.png",
+    "main.css": "/static/css/main.5b787e68.css",
+    "main.js": "/static/js/main.16468982.js",
+    "static/media/sage-speech.png": "/static/media/sage-speech.86113163ff252e05a6b9.png",
+    "static/media/lindsay-logo.png": "/static/media/lindsay-logo.7fd2d2e7f69128fb8b2d.png",
     "static/media/lindsay.jpg": "/static/media/lindsay.97819058521e552c53a8.jpg",
     "static/media/massature.jpg": "/static/media/massature.3cbf22b0458ca3f9b5ad.jpg",
     "static/media/uclax.png": "/static/media/uclax.dbef9b4129afabb60a81.png",
     "static/media/kita.jpg": "/static/media/kita.a7f12888c7fd1ce6af01.jpg",
     "index.html": "/index.html",
-    "main.3be82cc8.css.map": "/static/css/main.3be82cc8.css.map",
-    "main.4814607c.js.map": "/static/js/main.4814607c.js.map"
+    "main.5b787e68.css.map": "/static/css/main.5b787e68.css.map",
+    "main.16468982.js.map": "/static/js/main.16468982.js.map"
   },
   "entrypoints": [
-    "static/css/main.3be82cc8.css",
-    "static/js/main.4814607c.js"
+    "static/css/main.5b787e68.css",
+    "static/js/main.16468982.js"
   ]
 }
