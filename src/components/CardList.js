@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "./Card.js";
-import logo from '../assets/kita.jpg';
 import uclax_logo from '../assets/uclax.png';
 import massature from '../assets/massature.jpg';
 import sagespeech from '../assets/sage-speech.png';
+import sci_logo from '../assets/sci-logo.jpg';
 import "../styles.css";
 
 const CardList = () => {
@@ -24,8 +24,8 @@ const CardList = () => {
         },
         {
             title: "SCI",
-            imageUrl: logo,
-            imageAlt: "hello",
+            imageUrl: sci_logo,
+            imageAlt: "SCI Logo: a blue robotic arm against a white background.",
             description: "My work at the UCLA Structures-Computer Interaction lab, where I help research inertial navigation swarming in minibots.",
             tools: "C++, Python, Arduino, OpenCV, ArUco, BluePy, Bleak, pySerial",
         }, 

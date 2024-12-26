@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from '../components/NavBar';
+import Contact from '../components/Contact';
+
 import lindsay from '../assets/lindsay.jpg'
 
 import "../styles.css"
@@ -14,6 +16,7 @@ const About = () => {
                 making bad puns, and/or hanging out with friends.</p>
             </div>
         </div>
+        <Contact />
         
         </>
     )
