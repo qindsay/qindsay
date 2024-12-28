@@ -32,13 +32,19 @@ p {
     color: #646F58;
 }
 
-a:link {
+a {
     text-decoration: none;
+    color: #75609A;
+    font-weight: 500;
+
+    /* font-weight: 500; */
 }
 
 a:hover{
     text-decoration: none;
-    color: #a5ad99;
+    /* color: #a5ad99; */
+    color: #9686b8;
+
 }
 
 /* NavBar css */
@@ -71,6 +77,13 @@ nav {
     padding-top: 5px;
     height: 90%;
     background-color: #DED9E2;
+    color: #646F58;
+    font-weight: 400;
+
+ }
+
+ nav a:hover {
+    color: #a5ad99;
  }
 
  nav img {
@@ -163,7 +176,9 @@ nav {
 }
 
 .contact .info .item a {
+    color: #646F58;
     padding: 2% 5%;
+    font-weight: 400;
 }
 
  /* General */
@@ -172,7 +187,7 @@ nav {
     margin-top: 100px;
     margin-left: 7%;
     margin-right: 7%;
-    margin-bottom: 60px;
+    margin-bottom: 5%;
     width: 86%
     
 }
@@ -182,6 +197,9 @@ nav {
     margin-top: 10%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
 }
 
 .home-page .intro-text {
@@ -196,11 +214,28 @@ nav {
 
 .home-page .intro-text h2 {
     font-size: 3vw;
+    padding-bottom: 4%;
+}
+
+.home-page .intro-text a {
+    color: #75609A;
+    font-weight: 500;
+}
+
+.home-page .intro-text a:hover {
+    color: #9686b8;
 }
 
 .home-page ul {
     padding-top: 2%;
     padding-left: 5%;
+}
+
+.home-page img {
+    width: auto;
+    max-width: 50%;
+    height: 30vw;
+    padding-top: 5%;
 }
 
 
@@ -210,6 +245,30 @@ nav {
     }
  }
 
+/* About */
+.about-page {
+    display: flex;
+}
+
+.about-page h2{
+    color: #58A16E;
+}
+
+.about-page img {
+    max-width: 50%;
+    height: 40vw; 
+    width: auto;
+    padding-right: 5%;
+}
+
+.about-page ul {
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.about-page ul li {
+    padding-bottom: 2%;
+}
 
 
 /* Card */

@@ -11,7 +11,8 @@ const Contact = () => {
         <>
             <div className="contact">
                 <div className="flavor">
-                    <p>If you have any suggestions, are simply too intrigued, or need a new competitor on your NYT mini leaderboard, you're in the right place.</p>
+                    <p>If you have any suggestions, are simply too intrigued, or <a href="https://www.nytimes.com/puzzles/leaderboards/invite/3c4c0dd1-e7f6-4396-b31b-902a1705e79e" target="_blank" 
+                rel="noopener noreferrer">need a new competitor</a> on your NYT mini leaderboard, you're in the right place.</p>
                     <h2>get in touch &#10230;</h2>
                 </div>
                 <div className="info">
@@ -34,8 +35,6 @@ const Contact = () => {
 
             </div>
             <h3>&copy; Lindsay Qin 2024</h3>
-
-            
         </>
     )
 }
