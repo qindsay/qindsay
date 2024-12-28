@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b787e68.css",
-    "main.js": "/static/js/main.16468982.js",
+    "main.css": "/static/css/main.3c74227f.css",
+    "main.js": "/static/js/main.4ccff8b4.js",
+    "static/media/joshuatree.jpg": "/static/media/joshuatree.eb8ddb3a72107356136a.jpg",
     "static/media/sage-speech.png": "/static/media/sage-speech.86113163ff252e05a6b9.png",
     "static/media/lindsay-logo.png": "/static/media/lindsay-logo.7fd2d2e7f69128fb8b2d.png",
-    "static/media/lindsay.jpg": "/static/media/lindsay.97819058521e552c53a8.jpg",
+    "static/media/Lindsay Qin.jpg": "/static/media/Lindsay Qin.e847408b03523e0198f7.jpg",
+    "static/media/swipesmart.png": "/static/media/swipesmart.830c88d3da661a417ee6.png",
     "static/media/massature.jpg": "/static/media/massature.3cbf22b0458ca3f9b5ad.jpg",
     "static/media/uclax.png": "/static/media/uclax.dbef9b4129afabb60a81.png",
-    "static/media/kita.jpg": "/static/media/kita.a7f12888c7fd1ce6af01.jpg",
+    "static/media/email.png": "/static/media/email.ac53f9a0f6f8afb24968.png",
+    "static/media/sci-logo.jpg": "/static/media/sci-logo.be9e58ba2b0f28616d63.jpg",
+    "static/media/github.png": "/static/media/github.fcf4e69175f8776e898a.png",
     "index.html": "/index.html",
-    "main.5b787e68.css.map": "/static/css/main.5b787e68.css.map",
-    "main.16468982.js.map": "/static/js/main.16468982.js.map"
+    "main.3c74227f.css.map": "/static/css/main.3c74227f.css.map",
+    "main.4ccff8b4.js.map": "/static/js/main.4ccff8b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b787e68.css",
-    "static/js/main.16468982.js"
+    "static/css/main.3c74227f.css",
+    "static/js/main.4ccff8b4.js"
   ]
 }
