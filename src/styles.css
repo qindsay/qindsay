@@ -47,7 +47,7 @@ a:hover{
 
 }
 
-/* NavBar css */
+/* ========================= NavBar ========================= */
 
 nav {
     width: 100%;
@@ -117,7 +117,7 @@ nav {
     } */
  }
 
- /* Contact */
+ /* ========================= Contact ========================= */
 .contact {
     display: flex;
     flex-direction: row;
@@ -181,6 +181,35 @@ nav {
     font-weight: 400;
 }
 
+@media (max-width: 800px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact .flavor {
+        width: 100%;
+    }
+
+    .contact .flavor h2 {
+        font-size: 20px;
+    }
+
+    .contact .info {
+        flex-direction: row;
+        width: 100%;
+        gap: 8%;
+    }
+
+    .contact .info .item {
+        padding: 1% 2%;
+    }
+
+    h3 {
+        margin-top: 10%;
+        font-size: 20px;
+    }
+}
+
  /* General */
 
 .content {
@@ -240,8 +269,25 @@ nav {
 
 
 @media (max-width: 800px) {
+    .home-page {
+        flex-direction: column-reverse;
+    }
+
+    .home-page img {
+        max-width: 80%;
+        height: auto;
+    }
+
     .home-page .intro-text {
         width: 100%;
+    }
+
+    .home-page .intro-text h1 {
+        font-size: 10vw;
+    }
+
+    .home-page .intro-text h2 {
+        font-size: 6vw;
     }
  }
 
@@ -270,6 +316,23 @@ nav {
     padding-bottom: 2%;
 }
 
+@media (max-width: 800px) {
+    .about-page {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-page img {
+        max-width: 80%;
+        height: auto;
+        padding: 5%;
+    }
+
+    .about-page h2 {
+        font-size: 10vw;
+    }
+}
+
 
 /* Card */
 .card-list {
@@ -278,10 +341,13 @@ nav {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    margin: 0;
+    gap: 3%;
 }
 
 .card {
     width: 48%;
+    height: auto;
     margin-bottom: 3%;
     border-style: solid;
     border-width: 2px;
@@ -299,11 +365,8 @@ nav {
 }
 
 .card img {
-    /* width: 96%; */
     max-width: 96%;
-    width: auto;
-    height: 100%;
-    max-height: 300px;
+    height: auto;
     margin: 2% 2%;
     background-color: #DED9E2;
 }
@@ -342,9 +405,10 @@ nav {
     .card-list {
       flex-direction: column;
       margin: 0px 0px;
+      align-items: center;
     }
     .card {
-        width: 90%;
+        width: 100%;
         align-items: center;
         margin-bottom: 20px;
     }

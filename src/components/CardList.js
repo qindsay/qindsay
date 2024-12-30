@@ -1,9 +1,9 @@
 import React from "react";
 import Card from "./Card.js";
 import uclax_logo from '../assets/uclax.png';
-import massature from '../assets/massature.jpg';
-import sagespeech from '../assets/sage-speech.png';
-import sci_logo from '../assets/sci-logo.jpg';
+import massature from '../assets/massature.png';
+import sagespeech from '../assets/sagepresent.png';
+import sci_logo from '../assets/sci.png';
 import swipesmart_logo from '../assets/swipesmart.png';
 import "../styles.css";
 
@@ -62,9 +62,25 @@ const CardList = () => {
             title: "Massature",
             imageUrl: massature,
             imageAlt: "Image of gameplay from Massature. An icon attempts to climb up stairs that alternate between snails and coins.",
-            description: "A 2D platforming game where the player must grow and shrink to get to the end of the level.",
+            description: (
+                "A 2D platforming game where the player must grow and shrink to get to the end of the level."
+            ),
             tools: "C#, Unity"
-        }
+        },
+        // {
+        //     link: "https://youtu.be/h7TSGzvew_c?si=mz9CpaHf_yLgddXk&t=2094",
+        //     title: "SAGE-S Internship Talk",
+        //     imageUrl: sagespeech,
+        //     imageAlt: "Screenshot of YouTube video where Lindsay gives a speech.",
+        //     description: (
+        //         <>
+        //         I gave a talk to high school girls about my work and impact at <a href="https://www6.slac.stanford.edu/" target="_blank" 
+        //         rel="noopener noreferrer">SLAC National Accelerator Laboratory</a>, 
+        //         as well as the opportunities that I explored thanks to the <a href="https://mysagejourney.org/" 
+        //         target="_blank" rel="noopener noreferrer">SAGE</a> (Science Accelerating Girls' Engagement in STEM) program. 
+        //         </>
+        //     )
+        // },
     ]
 
     return (

@@ -27,7 +27,7 @@ const Home = () => {
                         <li>and a bad joke enthusiast!</li>
                     </ul>
                     <br></br>
-                    <p>While you're here, check out what I've been up to, from <Link to='/work'>professional projects</Link> to <Link to='/about'>personal passions</Link>.</p>
+                    <p>While you're here, feel free to check out what I've been up to, from <Link to='/work'>professional projects</Link> to <Link to='/about'>personal passions</Link>.</p>
                 </div>
                 <img src={headshot}></img>
             </div>
