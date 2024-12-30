@@ -1,12 +1,11 @@
 import React from "react";
+import "../styles.css";
 
 import NavBar from '../components/NavBar';
 import Contact from '../components/Contact';
 import CardList from '../components/CardList';
-import "../styles.css";
 
 const Work = () => {
-    
     return (
         <>
         <NavBar />
@@ -19,4 +18,5 @@ const Work = () => {
         </>
     )
 }
+
 export default Work;

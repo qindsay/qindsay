@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import "../styles.css"
 
+import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Contact from '../components/Contact';
-import headshot from '../assets/Lindsay Qin.jpg';
 
-
-import "../styles.css"
+import headshot from '../assets/headshot.jpg';
 
 const Home = () => {
     return (
@@ -29,12 +28,12 @@ const Home = () => {
                     <br></br>
                     <p>While you're here, feel free to check out what I've been up to, from <Link to='/work'>professional projects</Link> to <Link to='/about'>personal passions</Link>.</p>
                 </div>
-                <img src={headshot}></img>
+                <img src={headshot} alt="Lindsay Qin professional headshot."></img>
             </div>
         </div>
         <Contact />
-        
         </>
     )
 }
+
 export default Home;

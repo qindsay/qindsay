@@ -5,7 +5,6 @@ import email from '../assets/email.png';
 import linkedin from '../assets/linkedin.png'
 import github from '../assets/github.png'
 
-
 const Contact = () => {
     return (
         <>

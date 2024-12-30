@@ -1,11 +1,13 @@
 import React from "react";
+import "../styles.css";
+
 import Card from "./Card.js";
-import uclax_logo from '../assets/uclax.png';
-import massature from '../assets/massature.png';
+
 import sagespeech from '../assets/sagepresent.png';
 import sci_logo from '../assets/sci.png';
 import swipesmart_logo from '../assets/swipesmart.png';
-import "../styles.css";
+import uclax_logo from '../assets/uclax.png';
+import massature from '../assets/massature.png';
 
 const CardList = () => {
     const projects = [
@@ -67,20 +69,6 @@ const CardList = () => {
             ),
             tools: "C#, Unity"
         },
-        // {
-        //     link: "https://youtu.be/h7TSGzvew_c?si=mz9CpaHf_yLgddXk&t=2094",
-        //     title: "SAGE-S Internship Talk",
-        //     imageUrl: sagespeech,
-        //     imageAlt: "Screenshot of YouTube video where Lindsay gives a speech.",
-        //     description: (
-        //         <>
-        //         I gave a talk to high school girls about my work and impact at <a href="https://www6.slac.stanford.edu/" target="_blank" 
-        //         rel="noopener noreferrer">SLAC National Accelerator Laboratory</a>, 
-        //         as well as the opportunities that I explored thanks to the <a href="https://mysagejourney.org/" 
-        //         target="_blank" rel="noopener noreferrer">SAGE</a> (Science Accelerating Girls' Engagement in STEM) program. 
-        //         </>
-        //     )
-        // },
     ]
 
     return (

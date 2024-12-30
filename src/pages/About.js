@@ -1,10 +1,10 @@
 import React from "react";
+import "../styles.css"
+
 import NavBar from '../components/NavBar';
 import Contact from '../components/Contact';
 
 import joshuatree from '../assets/joshuatree.jpg'
-
-import "../styles.css"
 
 const About = () => {
     return (
@@ -12,7 +12,7 @@ const About = () => {
         <NavBar />
         <div className="content">
             <div className="about-page">
-                <img src={joshuatree}></img>
+                <img src={joshuatree} alt="Lindsay standing next to a joshua tree."></img>
                 <div className="about-text">
                     <h2>Hi, I'm Lindsay!</h2>
                     <br></br>
@@ -47,8 +47,8 @@ const About = () => {
             </div>
         </div>
         <Contact />
-        
         </>
     )
 }
+
 export default About;

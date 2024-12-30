@@ -1,17 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import "../styles.css";
+
+import { Link } from 'react-router-dom'
+
 import logo from '../assets/lindsay-logo.png'
 
 const NavBar = () => {
- return (
-   <>
+  return (
+    <>
      <nav>
-       <Link to='/'>
+      <Link to='/'>
              <img
              src={logo}
              alt='A cartoon girl with a green LQ behind her.'/></Link>
-       <div className="navbar-container">
+      <div className="navbar-container">
          <ul>
            <li><Link to='/about'>About</Link></li>
            <li><Link to='/work'>Work</Link></li>
@@ -20,8 +22,8 @@ const NavBar = () => {
          </ul>
        </div>
      </nav>
-   </>
- );
+    </>
+  );
 };
 
 
