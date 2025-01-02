@@ -59,6 +59,8 @@ nav {
     max-height: 10%;
     border-bottom: 2px solid;
     border-color: #A5AD99;
+    overflow: hidden;
+
  }
 
  nav a {
@@ -98,11 +100,23 @@ nav {
  }
 
  @media (max-width: 800px) {
+    nav .navbar-container {
+        height: 100%;
+        width: 20%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
     nav ul li {
-        display: block;
-        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: right;
         padding: 2% 0;
-        font-size: 4vw;
+        font-size: 100%;
+        height: 33%;
     }
  }
 
@@ -187,6 +201,7 @@ nav {
         flex-direction: row;
         width: 100%;
         gap: 6%;
+        justify-content: center;
     }
 
     .contact .info .item {
@@ -239,7 +254,7 @@ nav {
     50% {border-right-color: #58a16e}
     100% {border-right-color: transparent}
   }
-  
+
 /* ========================= Home =========================*/
 .home-page {
     margin-top: 10%;
@@ -261,7 +276,7 @@ nav {
 }
 
 .home-page .intro-text .frame2 {
-    animation-delay: 5s;
+    animation-delay: 4.5s;
 }
 
 .home-page .intro-text h2 {
@@ -288,7 +303,7 @@ nav {
     max-width: 50%;
     height: 30vw;
     padding-top: 5%;
-    animation-delay: 7s;
+    animation-delay: 6s;
 
 }
 
