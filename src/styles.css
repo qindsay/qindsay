@@ -54,14 +54,11 @@ nav {
     justify-content: space-between;
     z-index: 1000;
     padding: 0 7%;
+    box-sizing: border-box;
     background-color: #DED9E2;
     max-height: 10%;
     border-bottom: 2px solid;
     border-color: #A5AD99;
- }
-
- .navbar-container {
-    background-color: #DED9E2;
  }
 
  nav a {
@@ -72,7 +69,6 @@ nav {
     background-color: #DED9E2;
     color: #646F58;
     font-weight: 400;
-
  }
 
  nav a:hover {
@@ -99,7 +95,6 @@ nav {
     padding: 0px 20px;
     font-size: 20px;
     background-color: #DED9E2;
-
  }
 
  @media (max-width: 800px) {
@@ -215,6 +210,36 @@ nav {
     
 }
 
+.fadein { 
+    opacity: 0;
+    animation: fadeIn 1s forwards; 
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.typed {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s forwards, blinking 1s infinite;
+    animation-timing-function: steps(20, end);
+    border-right: 2px solid;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: #58a16e}
+    100% {border-right-color: transparent}
+  }
+  
 /* ========================= Home =========================*/
 .home-page {
     margin-top: 10%;
@@ -235,6 +260,10 @@ nav {
     color: #58A16E;
 }
 
+.home-page .intro-text .frame2 {
+    animation-delay: 5s;
+}
+
 .home-page .intro-text h2 {
     font-size: 3vw;
     padding-bottom: 4%;
@@ -246,7 +275,7 @@ nav {
 }
 
 .home-page .intro-text a:hover {
-    color: #9686b8;
+    color: #9686b8; 
 }
 
 .home-page ul {
@@ -259,8 +288,9 @@ nav {
     max-width: 50%;
     height: 30vw;
     padding-top: 5%;
-}
+    animation-delay: 7s;
 
+}
 
 @media (max-width: 800px) {
     .home-page {
@@ -270,6 +300,7 @@ nav {
     .home-page img {
         max-width: 80%;
         height: auto;
+        animation-delay: 0s;
     }
 
     .home-page .intro-text {
