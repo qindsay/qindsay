@@ -1,11 +1,30 @@
 import React from 'react';
+import { useState } from 'react';
 import "../styles.css";
 
 import { Link } from 'react-router-dom'
 
 import logo from '../assets/lindsay-logo.png'
 
-const NavBar = () => {
+function Hamburger() {
+  return (
+    <>
+      <div className="hamburger">
+        <div className="line" />
+        <div className="line" />
+        <div className="line" />
+      </div>
+    </>
+  )
+}
+
+const NavBar = () => {  
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+  const toggleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen);
+  }
+
   return (
     <>
      <nav>
@@ -21,8 +40,20 @@ const NavBar = () => {
                 rel="noopener noreferrer">Resume</a></li>
          </ul>
        </div>
+       <div className="hamburger" onClick={toggleHamburger}>
+        < Hamburger />
+       </div>
      </nav>
+    <div className={`nav-links ${hamburgerOpen ? 'open' : ''}`}>
+          <ul>  
+            <li><Link to='/about'>About</Link></li>
+            <li><Link to='/work'>Work</Link></li>
+            <li><a href="https://drive.google.com/file/d/1xrISeZxBYSH6D-zwtsyiakH7SjIXhXhC/view?usp=sharing" target="_blank" 
+                  rel="noopener noreferrer">Resume</a></li>
+          </ul>
+    </div>
     </>
+    
   );
 };
 
